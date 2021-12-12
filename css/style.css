@@ -96,7 +96,7 @@ nav > a:hover{
 }
 
 main{
-    min-width: 300px;
+    min-width: 280px;
     max-width: 1000px;
     margin-bottom: 30px;
     margin:auto;
@@ -107,9 +107,9 @@ main{
 }
 
 main img{
-    width:auto;
-    display:block;
-    margin:auto;
+    width: -webkit-fill-available;
+    display: block;
+    margin: auto;
 }
 
 main img.pequena {
@@ -211,18 +211,18 @@ aside > h3{
 
 footer{
     width: auto;
-    height: 40px;
+    height: 58px;
     background-color: var(--cor4);
     padding: 0px;
-    margin: 20px;
+    margin: 0px;
 }
 
 footer > p{
     width: auto;
     height: auto;
     text-align: center;
-    margin: 0px;
-    padding: 9px;
+    margin: 5px;
+    padding: 1px;
     color: var(--cor0);
 }
 
