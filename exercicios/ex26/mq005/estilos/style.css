@@ -20,8 +20,23 @@ header > h1{
     text-align: center;
 }
 
-menu{
+i#burger{
+    background-color: #5757576b;
+    color: rgb(37, 147, 161);
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
@@ -41,6 +56,7 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover{
     background-color: rgb(0, 0, 0);
+    color: white
 }
 
 main {
