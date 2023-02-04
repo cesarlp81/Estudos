@@ -56,14 +56,14 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover{
     background-color: rgb(0, 0, 0);
-    color: white
+    color: rgb(37, 147, 161);
 }
 
 main {
     width: 90vw;
     background-color: #5757576b;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 70px;
     padding: 10px;
     border-radius: 10px;
 
@@ -71,6 +71,7 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    color: white;
    
 }
 
@@ -79,4 +80,15 @@ article > p{
     margin-bottom: 20px;
     text-indent: 20px;
     color: white;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+
+footer > p{
+   
+   margin-top: 100px;
 }
